@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 72px;
+  background-color: var(--imputs);
+}
+.logo {
+  position: absolute;
+  left: 64px;
+}
+.nav {
+  display: flex;
+  gap: 32px;
+}
+.active {
+  color: var(--button-hover);
+}

@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 18px;
+  border-radius: 100px;
+  background: var(--badges);
+}
+.info {
+  font-weight: 500;
+  color: var(--main);
+}
+.info::first-letter {
+  text-transform: uppercase;
+}

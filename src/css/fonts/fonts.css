@@ -1,0 +1,23 @@
+/* Inter_Regular */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 400;
+  font-style: normal;
+  src: url('./Inter_Regular.ttf') format('truetype');
+}
+
+/* Inter_Medium */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./Inter_Medium.ttf') format('truetype');
+}
+
+/* Inter_SemiBold */
+@font-face {
+  font-family: 'Inter';
+  font-weight: 600;
+  font-style: normal;
+  src: url('./Inter_SemiBold.ttf') format('truetype');
+}

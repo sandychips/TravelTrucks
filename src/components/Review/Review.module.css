@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.info {
+  display: flex;
+  gap: 16px;
+}
+.avatar {
+  display: block;
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  background: var(--badges);
+  text-align: center;
+  line-height: 60px;
+  color: var(--button);
+}
+
+.name {
+  font-weight: 500;
+}
+
+.list {
+  display: flex;
+  gap: 4px;
+}

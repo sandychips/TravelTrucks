@@ -1,0 +1,36 @@
+.container {
+  padding: 48px 64px;
+}
+
+/* 2 */
+.navigation {
+  margin-top: 60px;
+  display: flex;
+  gap: 40px;
+  height: 48px;
+  border-bottom: solid 1px var(--gray-light);
+}
+
+/* 3 */
+
+.detail_info_form {
+  margin-top: 44px;
+  display: flex;
+  gap: 40px;
+}
+
+.btn {
+  background: inherit;
+  cursor: pointer;
+}
+
+.btn h3 {
+  height: 100%;
+}
+
+.isActive::after {
+  content: '';
+  display: block;
+  border-bottom: solid 5px var(--button);
+  transform: translateY(-2px);
+}

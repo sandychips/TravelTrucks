@@ -1,0 +1,47 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.mainInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ratingDescr {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.rating_location {
+  display: flex;
+  gap: 16px;
+}
+
+.rating_location li {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.imgGallery {
+  display: flex;
+  gap: 48px;
+  height: 312px;
+}
+
+.imgItem {
+  width: calc((100% - 48px * 3) / 4);
+  height: 100%;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0px 0px 10px 0px var(--gray);
+}

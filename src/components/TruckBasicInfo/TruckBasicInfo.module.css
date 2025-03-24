@@ -1,0 +1,58 @@
+.item {
+  display: flex;
+  gap: 24px;
+  height: 100%;
+}
+
+.img {
+  height: auto;
+  border-radius: 10px;
+  max-width: 292px;
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+}
+
+.name_price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.favorite {
+  display: block;
+  background: transparent;
+  cursor: pointer;
+  line-height: 100%;
+}
+
+.rating_location {
+  margin-top: 8px;
+  display: flex;
+  gap: 16px;
+}
+
+.rating_location li {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.description {
+  color: var(--text);
+  max-width: 525px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,35 @@
+.bgImg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url('/images/bgPicture.webp');
+  min-height: 696px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center top;
+  color: var(--inputs);
+  display: flex;
+  align-items: center;
+}
+
+@media (min-resolution: 2dppx) {
+  .bgImg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+      url('/images/bgPicture2x.webp');
+  }
+}
+
+.content {
+  margin-left: 64px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.text h1 {
+  font-size: 48px;
+}
